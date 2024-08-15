@@ -1,1 +1,0 @@
-geometry_msgs/Pose init_pose
