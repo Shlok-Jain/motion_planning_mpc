@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from neo_srvs2/srv/RelayBoardSetLED.srv
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/ColorRGBA.idl"
+
+module neo_srvs2 {
+  module srv {
+    struct RelayBoardSetLED_Request {
+      std_msgs::msg::ColorRGBA led_state;
+    };
+    struct RelayBoardSetLED_Response {
+      boolean success;
+    };
+  };
+};

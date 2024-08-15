@@ -1,0 +1,33 @@
+[0.005s] Invoking command in '/home/shlok/motio_planning_ws/build/neo_mpc_planner2': AMENT_PREFIX_PATH=/home/shlok/motio_planning_ws/install/neo_srvs2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shlok/motio_planning_ws/install/neo_srvs2:/opt/ros/humble LD_LIBRARY_PATH=/home/shlok/motio_planning_ws/install/neo_srvs2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shlok/motio_planning_ws/build/neo_mpc_planner2 -- -j16 -l16
+[0.036s] [ 50%] [32mBuilding CXX object CMakeFiles/neo_mpc_planner2.dir/src/NeoMpcPlanner.cpp.o[0m
+[0.039s] [ 50%] Built target ament_cmake_python_copy_neo_mpc_planner2_setup
+[0.040s] [ 50%] Built target ament_cmake_python_copy_neo_mpc_planner2
+[0.172s] running egg_info
+[0.173s] writing neo_mpc_planner2.egg-info/PKG-INFO
+[0.173s] writing dependency_links to neo_mpc_planner2.egg-info/dependency_links.txt
+[0.173s] writing top-level names to neo_mpc_planner2.egg-info/top_level.txt
+[0.174s] reading manifest file 'neo_mpc_planner2.egg-info/SOURCES.txt'
+[0.174s] writing manifest file 'neo_mpc_planner2.egg-info/SOURCES.txt'
+[0.190s] [ 50%] Built target ament_cmake_python_build_neo_mpc_planner2_egg
+[2.488s] [01m[K/home/shlok/motio_planning_ws/motion_planning_mpc/src/NeoMpcPlanner.cpp:[m[K In member function ‘[01m[Knav_msgs::msg::Path neo_mpc_planner::NeoMpcPlanner::transformGlobalPlan(const PoseStamped&)[m[K’:
+[2.488s] [01m[K/home/shlok/motio_planning_ws/motion_planning_mpc/src/NeoMpcPlanner.cpp:70:22:[m[K [01;31m[Kerror: [m[K‘[01m[KControllerException[m[K’ is not a member of ‘[01m[Knav2_core[m[K’
+[2.488s]    70 |     throw nav2_core::[01;31m[KControllerException[m[K("Received plan with zero length");
+[2.488s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.488s] [01m[K/home/shlok/motio_planning_ws/motion_planning_mpc/src/NeoMpcPlanner.cpp:76:22:[m[K [01;31m[Kerror: [m[K‘[01m[KControllerException[m[K’ is not a member of ‘[01m[Knav2_core[m[K’
+[2.489s]    76 |     throw nav2_core::[01;31m[KControllerException[m[K("Unable to transform robot pose into global plan's frame");
+[2.489s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.495s] [01m[K/home/shlok/motio_planning_ws/motion_planning_mpc/src/NeoMpcPlanner.cpp:131:22:[m[K [01;31m[Kerror: [m[K‘[01m[KControllerException[m[K’ is not a member of ‘[01m[Knav2_core[m[K’
+[2.495s]   131 |     throw nav2_core::[01;31m[KControllerException[m[K("Resulting plan has 0 poses in it.");
+[2.495s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.500s] [01m[K/home/shlok/motio_planning_ws/motion_planning_mpc/src/NeoMpcPlanner.cpp:[m[K In member function ‘[01m[Kvirtual geometry_msgs::msg::TwistStamped neo_mpc_planner::NeoMpcPlanner::computeVelocityCommands(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)[m[K’:
+[2.500s] [01m[K/home/shlok/motio_planning_ws/motion_planning_mpc/src/NeoMpcPlanner.cpp:235:22:[m[K [01;31m[Kerror: [m[K‘[01m[KControllerException[m[K’ is not a member of ‘[01m[Knav2_core[m[K’
+[2.500s]   235 |     throw nav2_core::[01;31m[KControllerException[m[K("MPC detected collision!");
+[2.500s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.508s] [01m[K/home/shlok/motio_planning_ws/motion_planning_mpc/src/NeoMpcPlanner.cpp:[m[K In member function ‘[01m[Kvirtual void neo_mpc_planner::NeoMpcPlanner::configure(const WeakPtr&, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)[m[K’:
+[2.508s] [01m[K/home/shlok/motio_planning_ws/motion_planning_mpc/src/NeoMpcPlanner.cpp:299:22:[m[K [01;31m[Kerror: [m[K‘[01m[KControllerException[m[K’ is not a member of ‘[01m[Knav2_core[m[K’
+[2.508s]   299 |     throw nav2_core::[01;31m[KControllerException[m[K("Unable to lock node!");
+[2.508s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.461s] gmake[2]: *** [CMakeFiles/neo_mpc_planner2.dir/build.make:76: CMakeFiles/neo_mpc_planner2.dir/src/NeoMpcPlanner.cpp.o] Error 1
+[4.461s] gmake[1]: *** [CMakeFiles/Makefile2:220: CMakeFiles/neo_mpc_planner2.dir/all] Error 2
+[4.462s] gmake: *** [Makefile:146: all] Error 2
+[4.464s] Invoked command in '/home/shlok/motio_planning_ws/build/neo_mpc_planner2' returned '2': AMENT_PREFIX_PATH=/home/shlok/motio_planning_ws/install/neo_srvs2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shlok/motio_planning_ws/install/neo_srvs2:/opt/ros/humble LD_LIBRARY_PATH=/home/shlok/motio_planning_ws/install/neo_srvs2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shlok/motio_planning_ws/build/neo_mpc_planner2 -- -j16 -l16

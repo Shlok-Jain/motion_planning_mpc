@@ -1,0 +1,20 @@
+[0.357s] Invoking command in '/home/shlok/motio_planning_ws/neo_nav2_py_costmap2D': PYTHONPATH=/home/shlok/motio_planning_ws/build/neo_nav2_py_costmap2D/prefix_override:/home/shlok/motio_planning_ws/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/neo_nav2_py_costmap2D build --build-base /home/shlok/motio_planning_ws/build/neo_nav2_py_costmap2D/build install --record /home/shlok/motio_planning_ws/build/neo_nav2_py_costmap2D/install.log --single-version-externally-managed install_data
+[0.483s] running egg_info
+[0.484s] writing ../build/neo_nav2_py_costmap2D/neo_nav2_py_costmap2D.egg-info/PKG-INFO
+[0.484s] writing dependency_links to ../build/neo_nav2_py_costmap2D/neo_nav2_py_costmap2D.egg-info/dependency_links.txt
+[0.484s] writing requirements to ../build/neo_nav2_py_costmap2D/neo_nav2_py_costmap2D.egg-info/requires.txt
+[0.484s] writing top-level names to ../build/neo_nav2_py_costmap2D/neo_nav2_py_costmap2D.egg-info/top_level.txt
+[0.485s] reading manifest file '../build/neo_nav2_py_costmap2D/neo_nav2_py_costmap2D.egg-info/SOURCES.txt'
+[0.485s] adding license file 'LICENSE'
+[0.485s] writing manifest file '../build/neo_nav2_py_costmap2D/neo_nav2_py_costmap2D.egg-info/SOURCES.txt'
+[0.485s] running build
+[0.485s] running build_py
+[0.485s] running install
+[0.486s] running install_lib
+[0.486s] running install_data
+[0.486s] running install_egg_info
+[0.488s] removing '/home/shlok/motio_planning_ws/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages/neo_nav2_py_costmap2D-0.0.0-py3.10.egg-info' (and everything under it)
+[0.488s] Copying ../build/neo_nav2_py_costmap2D/neo_nav2_py_costmap2D.egg-info to /home/shlok/motio_planning_ws/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages/neo_nav2_py_costmap2D-0.0.0-py3.10.egg-info
+[0.488s] running install_scripts
+[0.500s] writing list of installed files to '/home/shlok/motio_planning_ws/build/neo_nav2_py_costmap2D/install.log'
+[0.514s] Invoked command in '/home/shlok/motio_planning_ws/neo_nav2_py_costmap2D' returned '0': PYTHONPATH=/home/shlok/motio_planning_ws/build/neo_nav2_py_costmap2D/prefix_override:/home/shlok/motio_planning_ws/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/neo_nav2_py_costmap2D build --build-base /home/shlok/motio_planning_ws/build/neo_nav2_py_costmap2D/build install --record /home/shlok/motio_planning_ws/build/neo_nav2_py_costmap2D/install.log --single-version-externally-managed install_data

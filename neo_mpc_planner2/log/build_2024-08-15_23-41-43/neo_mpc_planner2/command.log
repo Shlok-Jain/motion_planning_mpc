@@ -1,0 +1,2 @@
+Invoking command in '/home/shlok/motion_planning_mpc/build/neo_mpc_planner2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shlok/motion_planning_mpc -DCMAKE_INSTALL_PREFIX=/home/shlok/motion_planning_mpc/install/neo_mpc_planner2
+Invoked command in '/home/shlok/motion_planning_mpc/build/neo_mpc_planner2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shlok/motion_planning_mpc -DCMAKE_INSTALL_PREFIX=/home/shlok/motion_planning_mpc/install/neo_mpc_planner2

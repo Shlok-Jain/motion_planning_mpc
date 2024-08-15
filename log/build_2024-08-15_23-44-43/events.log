@@ -1,0 +1,838 @@
+[0.000000] (-) TimerEvent: {}
+[0.000087] (neo_nav2_py_costmap2D) JobQueued: {'identifier': 'neo_nav2_py_costmap2D', 'dependencies': OrderedDict()}
+[0.000104] (neo_srvs2) JobQueued: {'identifier': 'neo_srvs2', 'dependencies': OrderedDict()}
+[0.000113] (neo_mpc_planner2) JobQueued: {'identifier': 'neo_mpc_planner2', 'dependencies': OrderedDict([('neo_srvs2', '/home/shlok/motio_planning_ws/install/neo_srvs2')])}
+[0.000124] (neo_srvs2) JobStarted: {'identifier': 'neo_srvs2'}
+[0.003336] (neo_nav2_py_costmap2D) JobStarted: {'identifier': 'neo_nav2_py_costmap2D'}
+[0.010247] (neo_srvs2) JobProgress: {'identifier': 'neo_srvs2', 'progress': 'cmake'}
+[0.010519] (neo_srvs2) Command: {'cmd': ['/usr/bin/cmake', '/home/shlok/motio_planning_ws/neo_srvs2', '-DCMAKE_INSTALL_PREFIX=/home/shlok/motio_planning_ws/install/neo_srvs2'], 'cwd': '/home/shlok/motio_planning_ws/build/neo_srvs2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shlok'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/webots/lib/controller:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shlok'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2070'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b4bedfeb7f4d8d91302f984566be42dc'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shlok'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shlok'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shlok-Swift-SF314-71:@/tmp/.ICE-unix/2070,unix/shlok-Swift-SF314-71:/tmp/.ICE-unix/2070'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2599932c_dc94_47ea_8794_3e07fdaf23b2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.I064R2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shlok/motio_planning_ws/build/neo_srvs2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b4bedfeb7f4d8d91302f984566be42dc'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.044191] (neo_srvs2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.075692] (neo_srvs2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.080060] (neo_srvs2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099461] (-) TimerEvent: {}
+[0.120405] (neo_srvs2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.124551] (neo_srvs2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.124630] (neo_srvs2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.124913] (neo_srvs2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.126761] (neo_srvs2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.173939] (neo_srvs2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.178336] (neo_srvs2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.178539] (neo_srvs2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.178860] (neo_srvs2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.181229] (neo_srvs2) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.182227] (neo_srvs2) StdoutLine: {'line': b'-- Found ament_cmake_core: 1.3.9 (/opt/ros/humble/share/ament_cmake_core/cmake)\n'}
+[0.199641] (-) TimerEvent: {}
+[0.272977] (neo_srvs2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.299833] (-) TimerEvent: {}
+[0.309920] (neo_srvs2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.314628] (neo_srvs2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.357515] (neo_srvs2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.381231] (neo_srvs2) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.400001] (-) TimerEvent: {}
+[0.459548] (neo_nav2_py_costmap2D) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/neo_nav2_py_costmap2D', 'build', '--build-base', '/home/shlok/motio_planning_ws/build/neo_nav2_py_costmap2D/build', 'install', '--record', '/home/shlok/motio_planning_ws/build/neo_nav2_py_costmap2D/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/shlok/motio_planning_ws/neo_nav2_py_costmap2D', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'shlok', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/webots/lib/controller:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/shlok', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2070', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b4bedfeb7f4d8d91302f984566be42dc', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'shlok', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shlok', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/shlok-Swift-SF314-71:@/tmp/.ICE-unix/2070,unix/shlok-Swift-SF314-71:/tmp/.ICE-unix/2070', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2599932c_dc94_47ea_8794_3e07fdaf23b2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.I064R2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.126', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shlok/motio_planning_ws/build/neo_nav2_py_costmap2D', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b4bedfeb7f4d8d91302f984566be42dc', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shlok/motio_planning_ws/build/neo_nav2_py_costmap2D/prefix_override:/home/shlok/motio_planning_ws/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.500132] (-) TimerEvent: {}
+[0.590325] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'running egg_info\n'}
+[0.590812] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'creating ../build/neo_nav2_py_costmap2D/neo_nav2_py_costmap2D.egg-info\n'}
+[0.590967] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'writing ../build/neo_nav2_py_costmap2D/neo_nav2_py_costmap2D.egg-info/PKG-INFO\n'}
+[0.591232] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'writing dependency_links to ../build/neo_nav2_py_costmap2D/neo_nav2_py_costmap2D.egg-info/dependency_links.txt\n'}
+[0.591392] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'writing requirements to ../build/neo_nav2_py_costmap2D/neo_nav2_py_costmap2D.egg-info/requires.txt\n'}
+[0.591461] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'writing top-level names to ../build/neo_nav2_py_costmap2D/neo_nav2_py_costmap2D.egg-info/top_level.txt\n'}
+[0.591525] (neo_nav2_py_costmap2D) StdoutLine: {'line': b"writing manifest file '../build/neo_nav2_py_costmap2D/neo_nav2_py_costmap2D.egg-info/SOURCES.txt'\n"}
+[0.593343] (neo_nav2_py_costmap2D) StdoutLine: {'line': b"reading manifest file '../build/neo_nav2_py_costmap2D/neo_nav2_py_costmap2D.egg-info/SOURCES.txt'\n"}
+[0.593508] (neo_nav2_py_costmap2D) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.593992] (neo_nav2_py_costmap2D) StdoutLine: {'line': b"writing manifest file '../build/neo_nav2_py_costmap2D/neo_nav2_py_costmap2D.egg-info/SOURCES.txt'\n"}
+[0.594169] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'running build\n'}
+[0.594247] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'running build_py\n'}
+[0.594314] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'creating /home/shlok/motio_planning_ws/build/neo_nav2_py_costmap2D/build\n'}
+[0.594480] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'creating /home/shlok/motio_planning_ws/build/neo_nav2_py_costmap2D/build/lib\n'}
+[0.594549] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'creating /home/shlok/motio_planning_ws/build/neo_nav2_py_costmap2D/build/lib/neo_nav2_py_costmap2D\n'}
+[0.594627] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'copying neo_nav2_py_costmap2D/costmap.py -> /home/shlok/motio_planning_ws/build/neo_nav2_py_costmap2D/build/lib/neo_nav2_py_costmap2D\n'}
+[0.594689] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'copying neo_nav2_py_costmap2D/__init__.py -> /home/shlok/motio_planning_ws/build/neo_nav2_py_costmap2D/build/lib/neo_nav2_py_costmap2D\n'}
+[0.594748] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'copying neo_nav2_py_costmap2D/line_iterator.py -> /home/shlok/motio_planning_ws/build/neo_nav2_py_costmap2D/build/lib/neo_nav2_py_costmap2D\n'}
+[0.594809] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'copying neo_nav2_py_costmap2D/footprint_checker.py -> /home/shlok/motio_planning_ws/build/neo_nav2_py_costmap2D/build/lib/neo_nav2_py_costmap2D\n'}
+[0.594899] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'running install\n'}
+[0.594969] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'running install_lib\n'}
+[0.595036] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'creating /home/shlok/motio_planning_ws/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages/neo_nav2_py_costmap2D\n'}
+[0.595091] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'copying /home/shlok/motio_planning_ws/build/neo_nav2_py_costmap2D/build/lib/neo_nav2_py_costmap2D/costmap.py -> /home/shlok/motio_planning_ws/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages/neo_nav2_py_costmap2D\n'}
+[0.595153] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'copying /home/shlok/motio_planning_ws/build/neo_nav2_py_costmap2D/build/lib/neo_nav2_py_costmap2D/__init__.py -> /home/shlok/motio_planning_ws/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages/neo_nav2_py_costmap2D\n'}
+[0.595183] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'copying /home/shlok/motio_planning_ws/build/neo_nav2_py_costmap2D/build/lib/neo_nav2_py_costmap2D/line_iterator.py -> /home/shlok/motio_planning_ws/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages/neo_nav2_py_costmap2D\n'}
+[0.595210] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'copying /home/shlok/motio_planning_ws/build/neo_nav2_py_costmap2D/build/lib/neo_nav2_py_costmap2D/footprint_checker.py -> /home/shlok/motio_planning_ws/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages/neo_nav2_py_costmap2D\n'}
+[0.595410] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'byte-compiling /home/shlok/motio_planning_ws/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages/neo_nav2_py_costmap2D/costmap.py to costmap.cpython-310.pyc\n'}
+[0.595965] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'byte-compiling /home/shlok/motio_planning_ws/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages/neo_nav2_py_costmap2D/__init__.py to __init__.cpython-310.pyc\n'}
+[0.596007] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'byte-compiling /home/shlok/motio_planning_ws/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages/neo_nav2_py_costmap2D/line_iterator.py to line_iterator.cpython-310.pyc\n'}
+[0.596251] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'byte-compiling /home/shlok/motio_planning_ws/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages/neo_nav2_py_costmap2D/footprint_checker.py to footprint_checker.cpython-310.pyc\n'}
+[0.596398] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'running install_data\n'}
+[0.596451] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'creating /home/shlok/motio_planning_ws/install/neo_nav2_py_costmap2D/share/ament_index\n'}
+[0.596492] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'creating /home/shlok/motio_planning_ws/install/neo_nav2_py_costmap2D/share/ament_index/resource_index\n'}
+[0.596538] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'creating /home/shlok/motio_planning_ws/install/neo_nav2_py_costmap2D/share/ament_index/resource_index/packages\n'}
+[0.596582] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'copying resource/neo_nav2_py_costmap2D -> /home/shlok/motio_planning_ws/install/neo_nav2_py_costmap2D/share/ament_index/resource_index/packages\n'}
+[0.596631] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'copying package.xml -> /home/shlok/motio_planning_ws/install/neo_nav2_py_costmap2D/share/neo_nav2_py_costmap2D\n'}
+[0.596659] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.598319] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'Copying ../build/neo_nav2_py_costmap2D/neo_nav2_py_costmap2D.egg-info to /home/shlok/motio_planning_ws/install/neo_nav2_py_costmap2D/lib/python3.10/site-packages/neo_nav2_py_costmap2D-0.0.0-py3.10.egg-info\n'}
+[0.598542] (neo_nav2_py_costmap2D) StdoutLine: {'line': b'running install_scripts\n'}
+[0.600218] (-) TimerEvent: {}
+[0.612162] (neo_nav2_py_costmap2D) StdoutLine: {'line': b"writing list of installed files to '/home/shlok/motio_planning_ws/build/neo_nav2_py_costmap2D/install.log'\n"}
+[0.627355] (neo_nav2_py_costmap2D) CommandEnded: {'returncode': 0}
+[0.635391] (neo_nav2_py_costmap2D) JobEnded: {'identifier': 'neo_nav2_py_costmap2D', 'rc': 0}
+[0.683810] (neo_srvs2) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.700401] (-) TimerEvent: {}
+[0.800695] (-) TimerEvent: {}
+[0.830786] (neo_srvs2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.900874] (-) TimerEvent: {}
+[1.001107] (-) TimerEvent: {}
+[1.016901] (neo_srvs2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.030476] (neo_srvs2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.032134] (neo_srvs2) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.050092] (neo_srvs2) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.050235] (neo_srvs2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.050272] (neo_srvs2) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.050302] (neo_srvs2) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.062412] (neo_srvs2) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.100993] (neo_srvs2) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.101126] (-) TimerEvent: {}
+[1.128308] (neo_srvs2) StdoutLine: {'line': b'-- Generating done\n'}
+[1.129739] (neo_srvs2) StdoutLine: {'line': b'-- Build files have been written to: /home/shlok/motio_planning_ws/build/neo_srvs2\n'}
+[1.138059] (neo_srvs2) CommandEnded: {'returncode': 0}
+[1.138305] (neo_srvs2) JobProgress: {'identifier': 'neo_srvs2', 'progress': 'build'}
+[1.138321] (neo_srvs2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shlok/motio_planning_ws/build/neo_srvs2', '--', '-j16', '-l16'], 'cwd': '/home/shlok/motio_planning_ws/build/neo_srvs2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shlok'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/webots/lib/controller:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shlok'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2070'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b4bedfeb7f4d8d91302f984566be42dc'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shlok'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shlok'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shlok-Swift-SF314-71:@/tmp/.ICE-unix/2070,unix/shlok-Swift-SF314-71:/tmp/.ICE-unix/2070'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2599932c_dc94_47ea_8794_3e07fdaf23b2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.I064R2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shlok/motio_planning_ws/build/neo_srvs2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b4bedfeb7f4d8d91302f984566be42dc'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.163754] (neo_srvs2) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.169497] (neo_srvs2) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.173369] (neo_srvs2) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_neo_srvs2\n'}
+[1.201222] (-) TimerEvent: {}
+[1.301478] (-) TimerEvent: {}
+[1.312862] (neo_srvs2) StdoutLine: {'line': b'running egg_info\n'}
+[1.313043] (neo_srvs2) StdoutLine: {'line': b'creating neo_srvs2.egg-info\n'}
+[1.313128] (neo_srvs2) StdoutLine: {'line': b'writing neo_srvs2.egg-info/PKG-INFO\n'}
+[1.313276] (neo_srvs2) StdoutLine: {'line': b'writing dependency_links to neo_srvs2.egg-info/dependency_links.txt\n'}
+[1.313374] (neo_srvs2) StdoutLine: {'line': b'writing top-level names to neo_srvs2.egg-info/top_level.txt\n'}
+[1.313525] (neo_srvs2) StdoutLine: {'line': b"writing manifest file 'neo_srvs2.egg-info/SOURCES.txt'\n"}
+[1.314667] (neo_srvs2) StdoutLine: {'line': b"reading manifest file 'neo_srvs2.egg-info/SOURCES.txt'\n"}
+[1.314897] (neo_srvs2) StdoutLine: {'line': b"writing manifest file 'neo_srvs2.egg-info/SOURCES.txt'\n"}
+[1.331689] (neo_srvs2) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_neo_srvs2_egg\n'}
+[1.401597] (-) TimerEvent: {}
+[1.501878] (-) TimerEvent: {}
+[1.602284] (-) TimerEvent: {}
+[1.702660] (-) TimerEvent: {}
+[1.802937] (-) TimerEvent: {}
+[1.866407] (neo_srvs2) StdoutLine: {'line': b'[  1%] Built target neo_srvs2__cpp\n'}
+[1.872562] (neo_srvs2) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.872729] (neo_srvs2) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.872799] (neo_srvs2) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.903251] (-) TimerEvent: {}
+[2.004305] (-) TimerEvent: {}
+[2.053085] (neo_srvs2) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_generator_c.dir/rosidl_generator_c/neo_srvs2/srv/detail/io_board_set_dig_out__functions.c.o\x1b[0m\n'}
+[2.053520] (neo_srvs2) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_generator_c.dir/rosidl_generator_c/neo_srvs2/srv/detail/relay_board_set_relay__functions.c.o\x1b[0m\n'}
+[2.054876] (neo_srvs2) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_generator_c.dir/rosidl_generator_c/neo_srvs2/srv/detail/lock_platform__functions.c.o\x1b[0m\n'}
+[2.056116] (neo_srvs2) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_generator_c.dir/rosidl_generator_c/neo_srvs2/srv/detail/relay_board_set_lcd_msg__functions.c.o\x1b[0m\n'}
+[2.056740] (neo_srvs2) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_generator_c.dir/rosidl_generator_c/neo_srvs2/srv/detail/reset_omni_wheels__functions.c.o\x1b[0m\n'}
+[2.057751] (neo_srvs2) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_generator_c.dir/rosidl_generator_c/neo_srvs2/srv/detail/relay_board_un_set_em_stop__functions.c.o\x1b[0m\n'}
+[2.058816] (neo_srvs2) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_generator_c.dir/rosidl_generator_c/neo_srvs2/srv/detail/unlock_platform__functions.c.o\x1b[0m\n'}
+[2.059980] (neo_srvs2) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_generator_c.dir/rosidl_generator_c/neo_srvs2/srv/detail/relay_board_set_em_stop__functions.c.o\x1b[0m\n'}
+[2.061044] (neo_srvs2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_generator_c.dir/rosidl_generator_c/neo_srvs2/srv/detail/optimizer__functions.c.o\x1b[0m\n'}
+[2.063784] (neo_srvs2) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_generator_c.dir/rosidl_generator_c/neo_srvs2/srv/detail/us_board_toggle_sensor__functions.c.o\x1b[0m\n'}
+[2.064554] (neo_srvs2) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_generator_c.dir/rosidl_generator_c/neo_srvs2/srv/detail/relay_board_set_led__functions.c.o\x1b[0m\n'}
+[2.071033] (neo_srvs2) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_generator_c.dir/rosidl_generator_c/neo_srvs2/srv/detail/set_safety_field__functions.c.o\x1b[0m\n'}
+[2.071192] (neo_srvs2) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_generator_c.dir/rosidl_generator_c/neo_srvs2/srv/detail/initialize_contour_matching__functions.c.o\x1b[0m\n'}
+[2.104400] (-) TimerEvent: {}
+[2.204959] (-) TimerEvent: {}
+[2.258544] (neo_srvs2) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libneo_srvs2__rosidl_generator_c.so\x1b[0m\n'}
+[2.284668] (neo_srvs2) StdoutLine: {'line': b'[ 14%] Built target neo_srvs2__rosidl_generator_c\n'}
+[2.291107] (neo_srvs2) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.294114] (neo_srvs2) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.294254] (neo_srvs2) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.304991] (-) TimerEvent: {}
+[2.405237] (-) TimerEvent: {}
+[2.505494] (-) TimerEvent: {}
+[2.579257] (neo_srvs2) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/neo_srvs2/srv/relay_board_set_relay__type_support.cpp.o\x1b[0m\n'}
+[2.583824] (neo_srvs2) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/neo_srvs2/srv/lock_platform__type_support.cpp.o\x1b[0m\n'}
+[2.596145] (neo_srvs2) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/neo_srvs2/srv/relay_board_set_lcd_msg__type_support.cpp.o\x1b[0m\n'}
+[2.596320] (neo_srvs2) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/neo_srvs2/srv/relay_board_set_em_stop__type_support.cpp.o\x1b[0m\n'}
+[2.596385] (neo_srvs2) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/neo_srvs2/srv/relay_board_un_set_em_stop__type_support.cpp.o\x1b[0m\n'}
+[2.596524] (neo_srvs2) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/neo_srvs2/srv/relay_board_set_led__type_support.cpp.o\x1b[0m\n'}
+[2.596713] (neo_srvs2) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/neo_srvs2/srv/io_board_set_dig_out__type_support.cpp.o\x1b[0m\n'}
+[2.596812] (neo_srvs2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/neo_srvs2/srv/reset_omni_wheels__type_support.cpp.o\x1b[0m\n'}
+[2.596949] (neo_srvs2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/neo_srvs2/srv/unlock_platform__type_support.cpp.o\x1b[0m\n'}
+[2.597287] (neo_srvs2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/neo_srvs2/srv/us_board_toggle_sensor__type_support.cpp.o\x1b[0m\n'}
+[2.605764] (-) TimerEvent: {}
+[2.615737] (neo_srvs2) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/neo_srvs2/srv/optimizer__type_support.cpp.o\x1b[0m\n'}
+[2.706029] (-) TimerEvent: {}
+[2.807771] (-) TimerEvent: {}
+[2.908960] (-) TimerEvent: {}
+[3.009560] (-) TimerEvent: {}
+[3.111290] (-) TimerEvent: {}
+[3.212576] (-) TimerEvent: {}
+[3.314093] (-) TimerEvent: {}
+[3.415461] (-) TimerEvent: {}
+[3.516730] (-) TimerEvent: {}
+[3.618021] (-) TimerEvent: {}
+[3.718575] (-) TimerEvent: {}
+[3.819952] (-) TimerEvent: {}
+[3.826011] (neo_srvs2) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/neo_srvs2/srv/initialize_contour_matching__type_support.cpp.o\x1b[0m\n'}
+[3.854606] (neo_srvs2) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/neo_srvs2/srv/set_safety_field__type_support.cpp.o\x1b[0m\n'}
+[3.920273] (-) TimerEvent: {}
+[3.953092] (neo_srvs2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/neo_srvs2/srv/detail/relay_board_set_relay__type_support.cpp.o\x1b[0m\n'}
+[3.959735] (neo_srvs2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/neo_srvs2/srv/detail/unlock_platform__type_support.cpp.o\x1b[0m\n'}
+[3.961351] (neo_srvs2) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/neo_srvs2/srv/detail/relay_board_set_lcd_msg__type_support.cpp.o\x1b[0m\n'}
+[3.962622] (neo_srvs2) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/neo_srvs2/srv/detail/lock_platform__type_support.cpp.o\x1b[0m\n'}
+[3.964103] (neo_srvs2) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/neo_srvs2/srv/detail/relay_board_un_set_em_stop__type_support.cpp.o\x1b[0m\n'}
+[3.967516] (neo_srvs2) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/neo_srvs2/srv/detail/reset_omni_wheels__type_support.cpp.o\x1b[0m\n'}
+[3.972684] (neo_srvs2) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/neo_srvs2/srv/detail/io_board_set_dig_out__type_support.cpp.o\x1b[0m\n'}
+[3.974136] (neo_srvs2) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/neo_srvs2/srv/detail/relay_board_set_led__type_support.cpp.o\x1b[0m\n'}
+[3.987020] (neo_srvs2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/neo_srvs2/srv/detail/relay_board_set_em_stop__type_support.cpp.o\x1b[0m\n'}
+[4.003483] (neo_srvs2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/neo_srvs2/srv/detail/us_board_toggle_sensor__type_support.cpp.o\x1b[0m\n'}
+[4.020565] (-) TimerEvent: {}
+[4.122724] (-) TimerEvent: {}
+[4.223903] (-) TimerEvent: {}
+[4.324409] (-) TimerEvent: {}
+[4.426348] (-) TimerEvent: {}
+[4.528158] (-) TimerEvent: {}
+[4.629999] (-) TimerEvent: {}
+[4.731836] (-) TimerEvent: {}
+[4.732492] (neo_srvs2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/neo_srvs2/srv/relay_board_set_relay__type_support.cpp.o\x1b[0m\n'}
+[4.832098] (-) TimerEvent: {}
+[4.897064] (neo_srvs2) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/neo_srvs2/srv/io_board_set_dig_out__type_support.cpp.o\x1b[0m\n'}
+[4.932152] (-) TimerEvent: {}
+[4.952718] (neo_srvs2) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/neo_srvs2/srv/detail/dds_fastrtps/relay_board_set_relay__type_support.cpp.o\x1b[0m\n'}
+[4.993385] (neo_srvs2) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/neo_srvs2/srv/relay_board_set_lcd_msg__type_support.cpp.o\x1b[0m\n'}
+[5.032529] (-) TimerEvent: {}
+[5.061305] (neo_srvs2) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/neo_srvs2/srv/detail/dds_fastrtps/io_board_set_dig_out__type_support.cpp.o\x1b[0m\n'}
+[5.078102] (neo_srvs2) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libneo_srvs2__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.132680] (-) TimerEvent: {}
+[5.140150] (neo_srvs2) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/neo_srvs2/srv/lock_platform__type_support.cpp.o\x1b[0m\n'}
+[5.233078] (-) TimerEvent: {}
+[5.278791] (neo_srvs2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/neo_srvs2/srv/unlock_platform__type_support.cpp.o\x1b[0m\n'}
+[5.333307] (-) TimerEvent: {}
+[5.340095] (neo_srvs2) StdoutLine: {'line': b'[ 42%] Built target neo_srvs2__rosidl_typesupport_cpp\n'}
+[5.430584] (neo_srvs2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/neo_srvs2/srv/reset_omni_wheels__type_support.cpp.o\x1b[0m\n'}
+[5.433584] (-) TimerEvent: {}
+[5.451420] (neo_srvs2) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/neo_srvs2/srv/detail/dds_fastrtps/relay_board_set_lcd_msg__type_support.cpp.o\x1b[0m\n'}
+[5.533725] (-) TimerEvent: {}
+[5.555490] (neo_srvs2) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/neo_srvs2/srv/relay_board_set_em_stop__type_support.cpp.o\x1b[0m\n'}
+[5.570441] (neo_srvs2) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/neo_srvs2/srv/detail/optimizer__type_support.cpp.o\x1b[0m\n'}
+[5.607350] (neo_srvs2) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/neo_srvs2/srv/detail/initialize_contour_matching__type_support.cpp.o\x1b[0m\n'}
+[5.634027] (-) TimerEvent: {}
+[5.674013] (neo_srvs2) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/neo_srvs2/srv/relay_board_un_set_em_stop__type_support.cpp.o\x1b[0m\n'}
+[5.675927] (neo_srvs2) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/neo_srvs2/srv/detail/set_safety_field__type_support.cpp.o\x1b[0m\n'}
+[5.685231] (neo_srvs2) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/neo_srvs2/srv/relay_board_set_led__type_support.cpp.o\x1b[0m\n'}
+[5.701126] (neo_srvs2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/neo_srvs2/srv/detail/relay_board_set_relay__type_support_c.cpp.o\x1b[0m\n'}
+[5.718215] (neo_srvs2) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/neo_srvs2/srv/detail/relay_board_set_lcd_msg__type_support_c.cpp.o\x1b[0m\n'}
+[5.718516] (neo_srvs2) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/neo_srvs2/srv/detail/io_board_set_dig_out__type_support_c.cpp.o\x1b[0m\n'}
+[5.718674] (neo_srvs2) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/neo_srvs2/srv/us_board_toggle_sensor__type_support.cpp.o\x1b[0m\n'}
+[5.724602] (neo_srvs2) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/neo_srvs2/srv/detail/dds_fastrtps/lock_platform__type_support.cpp.o\x1b[0m\n'}
+[5.730772] (neo_srvs2) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/neo_srvs2/srv/optimizer__type_support.cpp.o\x1b[0m\n'}
+[5.733046] (neo_srvs2) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/neo_srvs2/srv/initialize_contour_matching__type_support.cpp.o\x1b[0m\n'}
+[5.734058] (-) TimerEvent: {}
+[5.750228] (neo_srvs2) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_c.dir/rosidl_typesupport_c/neo_srvs2/srv/set_safety_field__type_support.cpp.o\x1b[0m\n'}
+[5.778274] (neo_srvs2) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/neo_srvs2/srv/detail/dds_fastrtps/unlock_platform__type_support.cpp.o\x1b[0m\n'}
+[5.778537] (neo_srvs2) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/neo_srvs2/srv/detail/lock_platform__type_support_c.cpp.o\x1b[0m\n'}
+[5.786125] (neo_srvs2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/neo_srvs2/srv/detail/dds_fastrtps/reset_omni_wheels__type_support.cpp.o\x1b[0m\n'}
+[5.809618] (neo_srvs2) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libneo_srvs2__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.818581] (neo_srvs2) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/neo_srvs2/srv/detail/dds_fastrtps/relay_board_set_em_stop__type_support.cpp.o\x1b[0m\n'}
+[5.834028] (neo_srvs2) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/neo_srvs2/srv/detail/relay_board_set_relay__type_support.c.o\x1b[0m\n'}
+[5.834215] (-) TimerEvent: {}
+[5.886504] (neo_srvs2) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/neo_srvs2/srv/detail/io_board_set_dig_out__type_support.c.o\x1b[0m\n'}
+[5.892552] (neo_srvs2) StdoutLine: {'line': b'[ 61%] Built target neo_srvs2__rosidl_typesupport_c\n'}
+[5.901889] (neo_srvs2) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/neo_srvs2/srv/detail/relay_board_set_lcd_msg__type_support.c.o\x1b[0m\n'}
+[5.934343] (-) TimerEvent: {}
+[5.937436] (neo_srvs2) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/neo_srvs2/srv/detail/lock_platform__type_support.c.o\x1b[0m\n'}
+[5.941162] (neo_srvs2) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/neo_srvs2/srv/detail/unlock_platform__type_support.c.o\x1b[0m\n'}
+[5.981100] (neo_srvs2) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/neo_srvs2/srv/detail/reset_omni_wheels__type_support.c.o\x1b[0m\n'}
+[5.989905] (neo_srvs2) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/neo_srvs2/srv/detail/relay_board_set_em_stop__type_support.c.o\x1b[0m\n'}
+[6.028113] (neo_srvs2) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/neo_srvs2/srv/detail/dds_fastrtps/relay_board_un_set_em_stop__type_support.cpp.o\x1b[0m\n'}
+[6.034692] (-) TimerEvent: {}
+[6.036090] (neo_srvs2) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/neo_srvs2/srv/detail/relay_board_un_set_em_stop__type_support.c.o\x1b[0m\n'}
+[6.063890] (neo_srvs2) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/neo_srvs2/srv/detail/dds_fastrtps/relay_board_set_led__type_support.cpp.o\x1b[0m\n'}
+[6.074762] (neo_srvs2) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/neo_srvs2/srv/detail/dds_fastrtps/us_board_toggle_sensor__type_support.cpp.o\x1b[0m\n'}
+[6.083987] (neo_srvs2) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/neo_srvs2/srv/detail/relay_board_set_led__type_support.c.o\x1b[0m\n'}
+[6.085343] (neo_srvs2) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/neo_srvs2/srv/detail/us_board_toggle_sensor__type_support.c.o\x1b[0m\n'}
+[6.107015] (neo_srvs2) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/neo_srvs2/srv/detail/optimizer__type_support.c.o\x1b[0m\n'}
+[6.127654] (neo_srvs2) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libneo_srvs2__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.133960] (neo_srvs2) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/neo_srvs2/srv/detail/initialize_contour_matching__type_support.c.o\x1b[0m\n'}
+[6.134189] (neo_srvs2) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/neo_srvs2/srv/detail/dds_fastrtps/optimizer__type_support.cpp.o\x1b[0m\n'}
+[6.134707] (-) TimerEvent: {}
+[6.135554] (neo_srvs2) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/neo_srvs2/srv/detail/unlock_platform__type_support_c.cpp.o\x1b[0m\n'}
+[6.149275] (neo_srvs2) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/neo_srvs2/srv/detail/set_safety_field__type_support.c.o\x1b[0m\n'}
+[6.160843] (neo_srvs2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/neo_srvs2/srv/detail/reset_omni_wheels__type_support_c.cpp.o\x1b[0m\n'}
+[6.174527] (neo_srvs2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/neo_srvs2/srv/detail/relay_board_set_em_stop__type_support_c.cpp.o\x1b[0m\n'}
+[6.178661] (neo_srvs2) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/neo_srvs2/srv/detail/dds_fastrtps/initialize_contour_matching__type_support.cpp.o\x1b[0m\n'}
+[6.205305] (neo_srvs2) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/neo_srvs2/srv/detail/relay_board_un_set_em_stop__type_support_c.cpp.o\x1b[0m\n'}
+[6.205595] (neo_srvs2) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library libneo_srvs2__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.234829] (-) TimerEvent: {}
+[6.240457] (neo_srvs2) StdoutLine: {'line': b'[ 78%] Built target neo_srvs2__rosidl_typesupport_introspection_cpp\n'}
+[6.249567] (neo_srvs2) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/neo_srvs2/srv/detail/relay_board_set_led__type_support_c.cpp.o\x1b[0m\n'}
+[6.256767] (neo_srvs2) StdoutLine: {'line': b'[ 79%] Built target neo_srvs2__rosidl_typesupport_introspection_c\n'}
+[6.279796] (neo_srvs2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/neo_srvs2/srv/detail/us_board_toggle_sensor__type_support_c.cpp.o\x1b[0m\n'}
+[6.289619] (neo_srvs2) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/neo_srvs2/srv/detail/optimizer__type_support_c.cpp.o\x1b[0m\n'}
+[6.314255] (neo_srvs2) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/neo_srvs2/srv/detail/dds_fastrtps/set_safety_field__type_support.cpp.o\x1b[0m\n'}
+[6.319003] (neo_srvs2) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/neo_srvs2/srv/detail/initialize_contour_matching__type_support_c.cpp.o\x1b[0m\n'}
+[6.334949] (-) TimerEvent: {}
+[6.382677] (neo_srvs2) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/neo_srvs2/srv/detail/set_safety_field__type_support_c.cpp.o\x1b[0m\n'}
+[6.435074] (-) TimerEvent: {}
+[6.535412] (-) TimerEvent: {}
+[6.635816] (-) TimerEvent: {}
+[6.684363] (neo_srvs2) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libneo_srvs2__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.704512] (neo_srvs2) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libneo_srvs2__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.736040] (-) TimerEvent: {}
+[6.736305] (neo_srvs2) StdoutLine: {'line': b'[ 84%] Built target neo_srvs2__rosidl_typesupport_fastrtps_c\n'}
+[6.755751] (neo_srvs2) StdoutLine: {'line': b'[ 84%] Built target neo_srvs2__rosidl_typesupport_fastrtps_cpp\n'}
+[6.769100] (neo_srvs2) StdoutLine: {'line': b'[ 84%] Built target neo_srvs2\n'}
+[6.782801] (neo_srvs2) StdoutLine: {'line': b'[ 85%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.836253] (-) TimerEvent: {}
+[6.936607] (-) TimerEvent: {}
+[7.036995] (-) TimerEvent: {}
+[7.137365] (-) TimerEvent: {}
+[7.237752] (-) TimerEvent: {}
+[7.338019] (-) TimerEvent: {}
+[7.438251] (-) TimerEvent: {}
+[7.538513] (-) TimerEvent: {}
+[7.638877] (-) TimerEvent: {}
+[7.739140] (-) TimerEvent: {}
+[7.839669] (-) TimerEvent: {}
+[7.882987] (neo_srvs2) StdoutLine: {'line': b'[ 85%] Built target neo_srvs2__py\n'}
+[7.897534] (neo_srvs2) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_generator_py.dir/rosidl_generator_py/neo_srvs2/srv/_relay_board_set_lcd_msg_s.c.o\x1b[0m\n'}
+[7.897795] (neo_srvs2) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_generator_py.dir/rosidl_generator_py/neo_srvs2/srv/_io_board_set_dig_out_s.c.o\x1b[0m\n'}
+[7.897869] (neo_srvs2) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_generator_py.dir/rosidl_generator_py/neo_srvs2/srv/_relay_board_set_relay_s.c.o\x1b[0m\n'}
+[7.897924] (neo_srvs2) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_generator_py.dir/rosidl_generator_py/neo_srvs2/srv/_reset_omni_wheels_s.c.o\x1b[0m\n'}
+[7.900098] (neo_srvs2) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_generator_py.dir/rosidl_generator_py/neo_srvs2/srv/_optimizer_s.c.o\x1b[0m\n'}
+[7.900329] (neo_srvs2) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_generator_py.dir/rosidl_generator_py/neo_srvs2/srv/_lock_platform_s.c.o\x1b[0m\n'}
+[7.900413] (neo_srvs2) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_generator_py.dir/rosidl_generator_py/neo_srvs2/srv/_set_safety_field_s.c.o\x1b[0m\n'}
+[7.900531] (neo_srvs2) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_generator_py.dir/rosidl_generator_py/neo_srvs2/srv/_unlock_platform_s.c.o\x1b[0m\n'}
+[7.900976] (neo_srvs2) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_generator_py.dir/rosidl_generator_py/neo_srvs2/srv/_relay_board_set_em_stop_s.c.o\x1b[0m\n'}
+[7.901539] (neo_srvs2) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_generator_py.dir/rosidl_generator_py/neo_srvs2/srv/_relay_board_un_set_em_stop_s.c.o\x1b[0m\n'}
+[7.901646] (neo_srvs2) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_generator_py.dir/rosidl_generator_py/neo_srvs2/srv/_relay_board_set_led_s.c.o\x1b[0m\n'}
+[7.901707] (neo_srvs2) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_generator_py.dir/rosidl_generator_py/neo_srvs2/srv/_us_board_toggle_sensor_s.c.o\x1b[0m\n'}
+[7.902154] (neo_srvs2) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_generator_py.dir/rosidl_generator_py/neo_srvs2/srv/_initialize_contour_matching_s.c.o\x1b[0m\n'}
+[7.939750] (-) TimerEvent: {}
+[8.040315] (-) TimerEvent: {}
+[8.141335] (-) TimerEvent: {}
+[8.172755] (neo_srvs2) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/neo_srvs2/libneo_srvs2__rosidl_generator_py.so\x1b[0m\n'}
+[8.203332] (neo_srvs2) StdoutLine: {'line': b'[ 96%] Built target neo_srvs2__rosidl_generator_py\n'}
+[8.215842] (neo_srvs2) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/neo_srvs2/_neo_srvs2_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.216023] (neo_srvs2) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/neo_srvs2/_neo_srvs2_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.216098] (neo_srvs2) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/neo_srvs2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/neo_srvs2/_neo_srvs2_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.241436] (-) TimerEvent: {}
+[8.322532] (neo_srvs2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/neo_srvs2/neo_srvs2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.322716] (neo_srvs2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/neo_srvs2/neo_srvs2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.322793] (neo_srvs2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/neo_srvs2/neo_srvs2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.341613] (-) TimerEvent: {}
+[8.347479] (neo_srvs2) StdoutLine: {'line': b'[100%] Built target neo_srvs2__rosidl_typesupport_c__pyext\n'}
+[8.347652] (neo_srvs2) StdoutLine: {'line': b'[100%] Built target neo_srvs2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.347724] (neo_srvs2) StdoutLine: {'line': b'[100%] Built target neo_srvs2__rosidl_typesupport_introspection_c__pyext\n'}
+[8.355102] (neo_srvs2) CommandEnded: {'returncode': 0}
+[8.441828] (-) TimerEvent: {}
+[8.488725] (neo_srvs2) JobProgress: {'identifier': 'neo_srvs2', 'progress': 'install'}
+[8.494402] (neo_srvs2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shlok/motio_planning_ws/build/neo_srvs2'], 'cwd': '/home/shlok/motio_planning_ws/build/neo_srvs2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shlok'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/webots/lib/controller:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shlok'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2070'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b4bedfeb7f4d8d91302f984566be42dc'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shlok'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shlok'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shlok-Swift-SF314-71:@/tmp/.ICE-unix/2070,unix/shlok-Swift-SF314-71:/tmp/.ICE-unix/2070'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2599932c_dc94_47ea_8794_3e07fdaf23b2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.I064R2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shlok/motio_planning_ws/build/neo_srvs2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b4bedfeb7f4d8d91302f984566be42dc'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.499267] (neo_srvs2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.499479] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/ament_index/resource_index/rosidl_interfaces/neo_srvs2\n'}
+[8.499646] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2\n'}
+[8.499729] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv\n'}
+[8.499872] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/io_board_set_dig_out.h\n'}
+[8.499997] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/reset_omni_wheels.h\n'}
+[8.500093] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/relay_board_un_set_em_stop.h\n'}
+[8.500162] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/relay_board_set_led.h\n'}
+[8.500229] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/optimizer.h\n'}
+[8.500338] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/relay_board_set_lcd_msg.h\n'}
+[8.500406] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/relay_board_set_relay.h\n'}
+[8.500495] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/us_board_toggle_sensor.h\n'}
+[8.500562] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail\n'}
+[8.500627] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/optimizer__struct.h\n'}
+[8.500732] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/lock_platform__functions.c\n'}
+[8.500797] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/unlock_platform__functions.h\n'}
+[8.500862] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/us_board_toggle_sensor__type_support.h\n'}
+[8.500926] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_relay__type_support.h\n'}
+[8.500991] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_relay__functions.h\n'}
+[8.501089] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/lock_platform__type_support.h\n'}
+[8.501163] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/optimizer__functions.h\n'}
+[8.501254] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/lock_platform__struct.h\n'}
+[8.501347] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_un_set_em_stop__functions.h\n'}
+[8.501411] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/set_safety_field__struct.h\n'}
+[8.501500] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_lcd_msg__type_support.h\n'}
+[8.501564] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_un_set_em_stop__functions.c\n'}
+[8.501628] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_led__functions.h\n'}
+[8.501727] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_lcd_msg__functions.c\n'}
+[8.501791] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_em_stop__struct.h\n'}
+[8.501854] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/optimizer__functions.c\n'}
+[8.501918] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/us_board_toggle_sensor__struct.h\n'}
+[8.501982] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/io_board_set_dig_out__struct.h\n'}
+[8.502081] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_em_stop__functions.h\n'}
+[8.502146] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/io_board_set_dig_out__functions.c\n'}
+[8.502210] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/set_safety_field__functions.c\n'}
+[8.502297] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_relay__struct.h\n'}
+[8.502358] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/lock_platform__functions.h\n'}
+[8.502431] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_lcd_msg__struct.h\n'}
+[8.502496] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/reset_omni_wheels__functions.h\n'}
+[8.502560] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_relay__functions.c\n'}
+[8.502658] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/optimizer__type_support.h\n'}
+[8.502722] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/set_safety_field__type_support.h\n'}
+[8.502786] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_led__struct.h\n'}
+[8.502849] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/set_safety_field__functions.h\n'}
+[8.502913] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/io_board_set_dig_out__functions.h\n'}
+[8.502976] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/initialize_contour_matching__type_support.h\n'}
+[8.503097] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/us_board_toggle_sensor__functions.h\n'}
+[8.503162] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/reset_omni_wheels__struct.h\n'}
+[8.503223] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/io_board_set_dig_out__type_support.h\n'}
+[8.503286] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_led__type_support.h\n'}
+[8.503349] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/unlock_platform__struct.h\n'}
+[8.503414] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_lcd_msg__functions.h\n'}
+[8.503516] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/initialize_contour_matching__functions.c\n'}
+[8.503581] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_em_stop__type_support.h\n'}
+[8.503645] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_un_set_em_stop__struct.h\n'}
+[8.503709] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/unlock_platform__functions.c\n'}
+[8.503772] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/us_board_toggle_sensor__functions.c\n'}
+[8.503836] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/reset_omni_wheels__functions.c\n'}
+[8.503900] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/reset_omni_wheels__type_support.h\n'}
+[8.503963] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_un_set_em_stop__type_support.h\n'}
+[8.504042] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_led__functions.c\n'}
+[8.504105] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/initialize_contour_matching__struct.h\n'}
+[8.504168] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/initialize_contour_matching__functions.h\n'}
+[8.504232] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/unlock_platform__type_support.h\n'}
+[8.504352] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_em_stop__functions.c\n'}
+[8.504416] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/relay_board_set_em_stop.h\n'}
+[8.504480] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/initialize_contour_matching.h\n'}
+[8.504543] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/set_safety_field.h\n'}
+[8.504606] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/lock_platform.h\n'}
+[8.504696] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/unlock_platform.h\n'}
+[8.504759] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/msg\n'}
+[8.504846] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.504909] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/environment/library_path.sh\n'}
+[8.504973] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/environment/library_path.dsv\n'}
+[8.505036] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/lib/libneo_srvs2__rosidl_generator_c.so\n'}
+[8.505099] (neo_srvs2) StdoutLine: {'line': b'-- Set runtime path of "/home/shlok/motio_planning_ws/install/neo_srvs2/lib/libneo_srvs2__rosidl_generator_c.so" to ""\n'}
+[8.505166] (neo_srvs2) StdoutLine: {'line': b'-- Up-to-date: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2\n'}
+[8.505283] (neo_srvs2) StdoutLine: {'line': b'-- Up-to-date: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv\n'}
+[8.505474] (neo_srvs2) StdoutLine: {'line': b'-- Up-to-date: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail\n'}
+[8.505527] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/unlock_platform__rosidl_typesupport_fastrtps_c.h\n'}
+[8.505564] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_un_set_em_stop__rosidl_typesupport_fastrtps_c.h\n'}
+[8.505599] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_em_stop__rosidl_typesupport_fastrtps_c.h\n'}
+[8.505633] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_led__rosidl_typesupport_fastrtps_c.h\n'}
+[8.505666] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_relay__rosidl_typesupport_fastrtps_c.h\n'}
+[8.505699] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/initialize_contour_matching__rosidl_typesupport_fastrtps_c.h\n'}
+[8.505732] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/optimizer__rosidl_typesupport_fastrtps_c.h\n'}
+[8.505765] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/set_safety_field__rosidl_typesupport_fastrtps_c.h\n'}
+[8.505796] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/reset_omni_wheels__rosidl_typesupport_fastrtps_c.h\n'}
+[8.505828] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/us_board_toggle_sensor__rosidl_typesupport_fastrtps_c.h\n'}
+[8.505861] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/lock_platform__rosidl_typesupport_fastrtps_c.h\n'}
+[8.505894] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/io_board_set_dig_out__rosidl_typesupport_fastrtps_c.h\n'}
+[8.505949] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_lcd_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[8.505986] (neo_srvs2) StdoutLine: {'line': b'-- Up-to-date: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/msg\n'}
+[8.506016] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.506048] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/lib/libneo_srvs2__rosidl_typesupport_fastrtps_c.so\n'}
+[8.506078] (neo_srvs2) StdoutLine: {'line': b'-- Set runtime path of "/home/shlok/motio_planning_ws/install/neo_srvs2/lib/libneo_srvs2__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.506210] (neo_srvs2) StdoutLine: {'line': b'-- Up-to-date: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2\n'}
+[8.506562] (neo_srvs2) StdoutLine: {'line': b'-- Up-to-date: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv\n'}
+[8.506650] (neo_srvs2) StdoutLine: {'line': b'-- Up-to-date: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail\n'}
+[8.506688] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/io_board_set_dig_out__type_support.c\n'}
+[8.506722] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_lcd_msg__type_support.c\n'}
+[8.506753] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/initialize_contour_matching__type_support.c\n'}
+[8.506816] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_relay__type_support.c\n'}
+[8.506847] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/set_safety_field__type_support.c\n'}
+[8.506877] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/unlock_platform__rosidl_typesupport_introspection_c.h\n'}
+[8.506930] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_led__type_support.c\n'}
+[8.506964] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_un_set_em_stop__type_support.c\n'}
+[8.506995] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/us_board_toggle_sensor__type_support.c\n'}
+[8.507025] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/lock_platform__rosidl_typesupport_introspection_c.h\n'}
+[8.507055] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_un_set_em_stop__rosidl_typesupport_introspection_c.h\n'}
+[8.507085] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/unlock_platform__type_support.c\n'}
+[8.507116] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_led__rosidl_typesupport_introspection_c.h\n'}
+[8.507146] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/reset_omni_wheels__rosidl_typesupport_introspection_c.h\n'}
+[8.507189] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/optimizer__rosidl_typesupport_introspection_c.h\n'}
+[8.507219] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_lcd_msg__rosidl_typesupport_introspection_c.h\n'}
+[8.507250] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/lock_platform__type_support.c\n'}
+[8.507281] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_relay__rosidl_typesupport_introspection_c.h\n'}
+[8.507311] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_em_stop__type_support.c\n'}
+[8.507340] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/us_board_toggle_sensor__rosidl_typesupport_introspection_c.h\n'}
+[8.507370] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_em_stop__rosidl_typesupport_introspection_c.h\n'}
+[8.507399] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/set_safety_field__rosidl_typesupport_introspection_c.h\n'}
+[8.507428] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/io_board_set_dig_out__rosidl_typesupport_introspection_c.h\n'}
+[8.507457] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/initialize_contour_matching__rosidl_typesupport_introspection_c.h\n'}
+[8.507487] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/reset_omni_wheels__type_support.c\n'}
+[8.507516] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/optimizer__type_support.c\n'}
+[8.507545] (neo_srvs2) StdoutLine: {'line': b'-- Up-to-date: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/msg\n'}
+[8.507573] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.507603] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/lib/libneo_srvs2__rosidl_typesupport_introspection_c.so\n'}
+[8.507634] (neo_srvs2) StdoutLine: {'line': b'-- Set runtime path of "/home/shlok/motio_planning_ws/install/neo_srvs2/lib/libneo_srvs2__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.507664] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/lib/libneo_srvs2__rosidl_typesupport_c.so\n'}
+[8.507693] (neo_srvs2) StdoutLine: {'line': b'-- Set runtime path of "/home/shlok/motio_planning_ws/install/neo_srvs2/lib/libneo_srvs2__rosidl_typesupport_c.so" to ""\n'}
+[8.507752] (neo_srvs2) StdoutLine: {'line': b'-- Up-to-date: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2\n'}
+[8.507826] (neo_srvs2) StdoutLine: {'line': b'-- Up-to-date: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv\n'}
+[8.507855] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/unlock_platform.hpp\n'}
+[8.507884] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/relay_board_set_em_stop.hpp\n'}
+[8.507913] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/relay_board_set_relay.hpp\n'}
+[8.507942] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/reset_omni_wheels.hpp\n'}
+[8.507970] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/initialize_contour_matching.hpp\n'}
+[8.507998] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/set_safety_field.hpp\n'}
+[8.508029] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/io_board_set_dig_out.hpp\n'}
+[8.508058] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/relay_board_un_set_em_stop.hpp\n'}
+[8.508087] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/lock_platform.hpp\n'}
+[8.508115] (neo_srvs2) StdoutLine: {'line': b'-- Up-to-date: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail\n'}
+[8.508144] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_em_stop__builder.hpp\n'}
+[8.508172] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/us_board_toggle_sensor__struct.hpp\n'}
+[8.508202] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/initialize_contour_matching__struct.hpp\n'}
+[8.508231] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/initialize_contour_matching__traits.hpp\n'}
+[8.508260] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/optimizer__struct.hpp\n'}
+[8.508289] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_un_set_em_stop__struct.hpp\n'}
+[8.508317] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_relay__builder.hpp\n'}
+[8.508346] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_em_stop__traits.hpp\n'}
+[8.508374] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_un_set_em_stop__builder.hpp\n'}
+[8.508402] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/set_safety_field__traits.hpp\n'}
+[8.508431] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_un_set_em_stop__traits.hpp\n'}
+[8.508459] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/io_board_set_dig_out__struct.hpp\n'}
+[8.508487] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/optimizer__traits.hpp\n'}
+[8.508515] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_lcd_msg__traits.hpp\n'}
+[8.508544] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/set_safety_field__builder.hpp\n'}
+[8.508586] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/optimizer__builder.hpp\n'}
+[8.508615] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_led__struct.hpp\n'}
+[8.508644] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/reset_omni_wheels__traits.hpp\n'}
+[8.508673] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_led__traits.hpp\n'}
+[8.508739] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_relay__struct.hpp\n'}
+[8.508796] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/io_board_set_dig_out__builder.hpp\n'}
+[8.508824] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_led__builder.hpp\n'}
+[8.508852] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/set_safety_field__struct.hpp\n'}
+[8.508881] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_relay__traits.hpp\n'}
+[8.508909] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/lock_platform__struct.hpp\n'}
+[8.508937] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_em_stop__struct.hpp\n'}
+[8.508965] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/us_board_toggle_sensor__builder.hpp\n'}
+[8.508992] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/us_board_toggle_sensor__traits.hpp\n'}
+[8.509022] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/unlock_platform__builder.hpp\n'}
+[8.509049] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/io_board_set_dig_out__traits.hpp\n'}
+[8.509077] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/initialize_contour_matching__builder.hpp\n'}
+[8.509105] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/unlock_platform__struct.hpp\n'}
+[8.509147] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/reset_omni_wheels__builder.hpp\n'}
+[8.509177] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_lcd_msg__struct.hpp\n'}
+[8.509205] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/unlock_platform__traits.hpp\n'}
+[8.509233] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/reset_omni_wheels__struct.hpp\n'}
+[8.509261] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/lock_platform__traits.hpp\n'}
+[8.509319] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_lcd_msg__builder.hpp\n'}
+[8.509347] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/lock_platform__builder.hpp\n'}
+[8.509373] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/us_board_toggle_sensor.hpp\n'}
+[8.509403] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/optimizer.hpp\n'}
+[8.509430] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/relay_board_set_led.hpp\n'}
+[8.509456] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/relay_board_set_lcd_msg.hpp\n'}
+[8.509483] (neo_srvs2) StdoutLine: {'line': b'-- Up-to-date: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2\n'}
+[8.509544] (neo_srvs2) StdoutLine: {'line': b'-- Up-to-date: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv\n'}
+[8.509573] (neo_srvs2) StdoutLine: {'line': b'-- Up-to-date: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail\n'}
+[8.509602] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/io_board_set_dig_out__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.509630] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_led__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.509659] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_relay__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.509701] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_lcd_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.509729] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/optimizer__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.509768] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/dds_fastrtps\n'}
+[8.509798] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_un_set_em_stop__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.509828] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/us_board_toggle_sensor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.509867] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/initialize_contour_matching__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.509896] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/reset_omni_wheels__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.509926] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/unlock_platform__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.509955] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_em_stop__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.509983] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/set_safety_field__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.510028] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/lock_platform__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.510059] (neo_srvs2) StdoutLine: {'line': b'-- Up-to-date: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/msg\n'}
+[8.510088] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.510117] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/lib/libneo_srvs2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.510146] (neo_srvs2) StdoutLine: {'line': b'-- Set runtime path of "/home/shlok/motio_planning_ws/install/neo_srvs2/lib/libneo_srvs2__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.510174] (neo_srvs2) StdoutLine: {'line': b'-- Up-to-date: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2\n'}
+[8.510203] (neo_srvs2) StdoutLine: {'line': b'-- Up-to-date: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv\n'}
+[8.510232] (neo_srvs2) StdoutLine: {'line': b'-- Up-to-date: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail\n'}
+[8.510260] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_led__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.510289] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/optimizer__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.510317] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/lock_platform__type_support.cpp\n'}
+[8.510346] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/set_safety_field__type_support.cpp\n'}
+[8.510375] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_em_stop__type_support.cpp\n'}
+[8.510403] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_lcd_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.510431] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/initialize_contour_matching__type_support.cpp\n'}
+[8.510460] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/io_board_set_dig_out__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.510488] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/optimizer__type_support.cpp\n'}
+[8.510523] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/io_board_set_dig_out__type_support.cpp\n'}
+[8.510553] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_un_set_em_stop__type_support.cpp\n'}
+[8.510582] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/us_board_toggle_sensor__type_support.cpp\n'}
+[8.510610] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/us_board_toggle_sensor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.510664] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_relay__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.510693] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/lock_platform__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.510722] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_un_set_em_stop__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.510751] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/reset_omni_wheels__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.510779] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/initialize_contour_matching__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.510806] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_lcd_msg__type_support.cpp\n'}
+[8.510834] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/unlock_platform__type_support.cpp\n'}
+[8.510861] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_led__type_support.cpp\n'}
+[8.510887] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_em_stop__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.510914] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/relay_board_set_relay__type_support.cpp\n'}
+[8.510942] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/unlock_platform__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.510969] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/set_safety_field__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.510996] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/include/neo_srvs2/neo_srvs2/srv/detail/reset_omni_wheels__type_support.cpp\n'}
+[8.511024] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/lib/libneo_srvs2__rosidl_typesupport_introspection_cpp.so\n'}
+[8.511051] (neo_srvs2) StdoutLine: {'line': b'-- Set runtime path of "/home/shlok/motio_planning_ws/install/neo_srvs2/lib/libneo_srvs2__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.511079] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/lib/libneo_srvs2__rosidl_typesupport_cpp.so\n'}
+[8.511106] (neo_srvs2) StdoutLine: {'line': b'-- Set runtime path of "/home/shlok/motio_planning_ws/install/neo_srvs2/lib/libneo_srvs2__rosidl_typesupport_cpp.so" to ""\n'}
+[8.511133] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/environment/pythonpath.sh\n'}
+[8.511160] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/environment/pythonpath.dsv\n'}
+[8.511188] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2-0.1.0-py3.10.egg-info\n'}
+[8.511216] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[8.511244] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[8.511280] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[8.511332] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[8.511358] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2\n'}
+[8.511385] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/neo_srvs2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.511412] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv\n'}
+[8.511439] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_relay_board_set_relay_s.c\n'}
+[8.511466] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_unlock_platform_s.c\n'}
+[8.511506] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_relay_board_set_em_stop_s.c\n'}
+[8.511533] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_set_safety_field.py\n'}
+[8.511559] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_optimizer_s.c\n'}
+[8.511586] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_reset_omni_wheels_s.c\n'}
+[8.511614] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_lock_platform.py\n'}
+[8.511641] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_us_board_toggle_sensor_s.c\n'}
+[8.511668] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_lock_platform_s.c\n'}
+[8.511696] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/__init__.py\n'}
+[8.511723] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_relay_board_set_relay.py\n'}
+[8.511751] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_set_safety_field_s.c\n'}
+[8.511778] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_unlock_platform.py\n'}
+[8.511807] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_io_board_set_dig_out.py\n'}
+[8.511834] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_relay_board_set_lcd_msg.py\n'}
+[8.511861] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_relay_board_un_set_em_stop_s.c\n'}
+[8.511889] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_relay_board_un_set_em_stop.py\n'}
+[8.511928] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_initialize_contour_matching_s.c\n'}
+[8.511954] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_initialize_contour_matching.py\n'}
+[8.511979] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_us_board_toggle_sensor.py\n'}
+[8.512004] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_relay_board_set_led.py\n'}
+[8.512029] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_relay_board_set_led_s.c\n'}
+[8.512054] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_relay_board_set_em_stop.py\n'}
+[8.512079] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_optimizer.py\n'}
+[8.512106] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_relay_board_set_lcd_msg_s.c\n'}
+[8.512131] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_reset_omni_wheels.py\n'}
+[8.512156] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_io_board_set_dig_out_s.c\n'}
+[8.512182] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/_neo_srvs2_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.512206] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/neo_srvs2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.512230] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/__init__.py\n'}
+[8.512254] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/_neo_srvs2_s.ep.rosidl_typesupport_c.c\n'}
+[8.512283] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/_neo_srvs2_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.512307] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/libneo_srvs2__rosidl_generator_py.so\n'}
+[8.512332] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/neo_srvs2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.541929] (-) TimerEvent: {}
+[8.544691] (neo_srvs2) StdoutLine: {'line': b"Listing '/home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2'...\n"}
+[8.544769] (neo_srvs2) StdoutLine: {'line': b"Compiling '/home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/__init__.py'...\n"}
+[8.544802] (neo_srvs2) StdoutLine: {'line': b"Listing '/home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv'...\n"}
+[8.544831] (neo_srvs2) StdoutLine: {'line': b"Compiling '/home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/__init__.py'...\n"}
+[8.544857] (neo_srvs2) StdoutLine: {'line': b"Compiling '/home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_initialize_contour_matching.py'...\n"}
+[8.544889] (neo_srvs2) StdoutLine: {'line': b"Compiling '/home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_io_board_set_dig_out.py'...\n"}
+[8.544915] (neo_srvs2) StdoutLine: {'line': b"Compiling '/home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_lock_platform.py'...\n"}
+[8.544940] (neo_srvs2) StdoutLine: {'line': b"Compiling '/home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_optimizer.py'...\n"}
+[8.544967] (neo_srvs2) StdoutLine: {'line': b"Compiling '/home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_relay_board_set_em_stop.py'...\n"}
+[8.545011] (neo_srvs2) StdoutLine: {'line': b"Compiling '/home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_relay_board_set_lcd_msg.py'...\n"}
+[8.545036] (neo_srvs2) StdoutLine: {'line': b"Compiling '/home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_relay_board_set_led.py'...\n"}
+[8.545062] (neo_srvs2) StdoutLine: {'line': b"Compiling '/home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_relay_board_set_relay.py'...\n"}
+[8.545086] (neo_srvs2) StdoutLine: {'line': b"Compiling '/home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_relay_board_un_set_em_stop.py'...\n"}
+[8.545111] (neo_srvs2) StdoutLine: {'line': b"Compiling '/home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_reset_omni_wheels.py'...\n"}
+[8.545144] (neo_srvs2) StdoutLine: {'line': b"Compiling '/home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_set_safety_field.py'...\n"}
+[8.545168] (neo_srvs2) StdoutLine: {'line': b"Compiling '/home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_unlock_platform.py'...\n"}
+[8.545193] (neo_srvs2) StdoutLine: {'line': b"Compiling '/home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/srv/_us_board_toggle_sensor.py'...\n"}
+[8.547579] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/neo_srvs2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.547674] (neo_srvs2) StdoutLine: {'line': b'-- Set runtime path of "/home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/neo_srvs2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.547712] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/neo_srvs2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.547885] (neo_srvs2) StdoutLine: {'line': b'-- Set runtime path of "/home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/neo_srvs2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.547952] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/neo_srvs2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.548082] (neo_srvs2) StdoutLine: {'line': b'-- Set runtime path of "/home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages/neo_srvs2/neo_srvs2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.548148] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/lib/libneo_srvs2__rosidl_generator_py.so\n'}
+[8.548244] (neo_srvs2) StdoutLine: {'line': b'-- Set runtime path of "/home/shlok/motio_planning_ws/install/neo_srvs2/lib/libneo_srvs2__rosidl_generator_py.so" to ""\n'}
+[8.548333] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetRelay.idl\n'}
+[8.548375] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/IOBoardSetDigOut.idl\n'}
+[8.548413] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetLCDMsg.idl\n'}
+[8.548439] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/LockPlatform.idl\n'}
+[8.548484] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/UnlockPlatform.idl\n'}
+[8.548517] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/ResetOmniWheels.idl\n'}
+[8.548553] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetEMStop.idl\n'}
+[8.548590] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardUnSetEMStop.idl\n'}
+[8.548633] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetLED.idl\n'}
+[8.548677] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/USBoardToggleSensor.idl\n'}
+[8.548728] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/Optimizer.idl\n'}
+[8.548776] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/InitializeContourMatching.idl\n'}
+[8.548825] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/SetSafetyField.idl\n'}
+[8.548872] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetRelay.srv\n'}
+[8.548924] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetRelay_Request.msg\n'}
+[8.548974] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetRelay_Response.msg\n'}
+[8.549022] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/IOBoardSetDigOut.srv\n'}
+[8.549067] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/IOBoardSetDigOut_Request.msg\n'}
+[8.549128] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/IOBoardSetDigOut_Response.msg\n'}
+[8.549177] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetLCDMsg.srv\n'}
+[8.549226] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetLCDMsg_Request.msg\n'}
+[8.549276] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetLCDMsg_Response.msg\n'}
+[8.549328] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/LockPlatform.srv\n'}
+[8.549376] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/LockPlatform_Request.msg\n'}
+[8.549422] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/LockPlatform_Response.msg\n'}
+[8.549469] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/UnlockPlatform.srv\n'}
+[8.549521] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/UnlockPlatform_Request.msg\n'}
+[8.549566] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/UnlockPlatform_Response.msg\n'}
+[8.549615] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/ResetOmniWheels.srv\n'}
+[8.549664] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/ResetOmniWheels_Request.msg\n'}
+[8.549715] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/ResetOmniWheels_Response.msg\n'}
+[8.549763] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetEMStop.srv\n'}
+[8.549816] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetEMStop_Request.msg\n'}
+[8.549861] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetEMStop_Response.msg\n'}
+[8.549914] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardUnSetEMStop.srv\n'}
+[8.549962] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardUnSetEMStop_Request.msg\n'}
+[8.550010] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardUnSetEMStop_Response.msg\n'}
+[8.550057] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetLED.srv\n'}
+[8.550109] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetLED_Request.msg\n'}
+[8.550158] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/RelayBoardSetLED_Response.msg\n'}
+[8.550207] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/USBoardToggleSensor.srv\n'}
+[8.550255] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/USBoardToggleSensor_Request.msg\n'}
+[8.550307] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/USBoardToggleSensor_Response.msg\n'}
+[8.550355] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/Optimizer.srv\n'}
+[8.550406] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/Optimizer_Request.msg\n'}
+[8.550455] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/Optimizer_Response.msg\n'}
+[8.550510] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/InitializeContourMatching.srv\n'}
+[8.550559] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/InitializeContourMatching_Request.msg\n'}
+[8.550609] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/InitializeContourMatching_Response.msg\n'}
+[8.550659] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/SetSafetyField.srv\n'}
+[8.550712] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/SetSafetyField_Request.msg\n'}
+[8.550763] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/srv/SetSafetyField_Response.msg\n'}
+[8.550849] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/ament_index/resource_index/package_run_dependencies/neo_srvs2\n'}
+[8.550917] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/ament_index/resource_index/parent_prefix_path/neo_srvs2\n'}
+[8.550976] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/environment/ament_prefix_path.sh\n'}
+[8.551024] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/environment/ament_prefix_path.dsv\n'}
+[8.551076] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/environment/path.sh\n'}
+[8.551126] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/environment/path.dsv\n'}
+[8.551178] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/local_setup.bash\n'}
+[8.551227] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/local_setup.sh\n'}
+[8.551280] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/local_setup.zsh\n'}
+[8.551328] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/local_setup.dsv\n'}
+[8.551379] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/package.dsv\n'}
+[8.551441] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/ament_index/resource_index/packages/neo_srvs2\n'}
+[8.551512] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake/export_neo_srvs2__rosidl_generator_cExport.cmake\n'}
+[8.551570] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake/export_neo_srvs2__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.551631] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake/export_neo_srvs2__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.551683] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake/export_neo_srvs2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.551742] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake/neo_srvs2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.551796] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake/neo_srvs2__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.551857] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake/neo_srvs2__rosidl_typesupport_cExport.cmake\n'}
+[8.551909] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake/neo_srvs2__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.551966] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake/export_neo_srvs2__rosidl_generator_cppExport.cmake\n'}
+[8.552025] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake/export_neo_srvs2__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.552082] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake/export_neo_srvs2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.552137] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake/neo_srvs2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.552190] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake/neo_srvs2__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.552248] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake/neo_srvs2__rosidl_typesupport_cppExport.cmake\n'}
+[8.552305] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake/neo_srvs2__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.552416] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake/export_neo_srvs2__rosidl_generator_pyExport.cmake\n'}
+[8.552547] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake/export_neo_srvs2__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.552647] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake/rosidl_cmake-extras.cmake\n'}
+[8.552724] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.552804] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.552877] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.552957] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.553017] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.553087] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.553154] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake/neo_srvs2Config.cmake\n'}
+[8.553215] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake/neo_srvs2Config-version.cmake\n'}
+[8.553350] (neo_srvs2) StdoutLine: {'line': b'-- Installing: /home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/package.xml\n'}
+[8.554507] (neo_srvs2) CommandEnded: {'returncode': 0}
+[8.642041] (-) TimerEvent: {}
+[8.698452] (neo_srvs2) JobEnded: {'identifier': 'neo_srvs2', 'rc': 0}
+[8.699024] (neo_mpc_planner2) JobStarted: {'identifier': 'neo_mpc_planner2'}
+[8.702615] (neo_mpc_planner2) JobProgress: {'identifier': 'neo_mpc_planner2', 'progress': 'cmake'}
+[8.702686] (neo_mpc_planner2) Command: {'cmd': ['/usr/bin/cmake', '/home/shlok/motio_planning_ws/motion_planning_mpc', '-DCMAKE_INSTALL_PREFIX=/home/shlok/motio_planning_ws/install/neo_mpc_planner2'], 'cwd': '/home/shlok/motio_planning_ws/build/neo_mpc_planner2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shlok'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shlok/motio_planning_ws/install/neo_srvs2/lib:/usr/local/webots/lib/controller:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shlok'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2070'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b4bedfeb7f4d8d91302f984566be42dc'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shlok'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shlok'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shlok-Swift-SF314-71:@/tmp/.ICE-unix/2070,unix/shlok-Swift-SF314-71:/tmp/.ICE-unix/2070'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2599932c_dc94_47ea_8794_3e07fdaf23b2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.I064R2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shlok/motio_planning_ws/install/neo_srvs2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shlok/motio_planning_ws/build/neo_mpc_planner2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b4bedfeb7f4d8d91302f984566be42dc'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shlok/motio_planning_ws/install/neo_srvs2:/opt/ros/humble')]), 'shell': False}
+[8.738118] (neo_mpc_planner2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[8.742272] (-) TimerEvent: {}
+[8.772426] (neo_mpc_planner2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[8.777227] (neo_mpc_planner2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[8.817384] (neo_mpc_planner2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.821386] (neo_mpc_planner2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[8.821619] (neo_mpc_planner2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.821777] (neo_mpc_planner2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.823546] (neo_mpc_planner2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.842594] (-) TimerEvent: {}
+[8.868898] (neo_mpc_planner2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.873241] (neo_mpc_planner2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.873397] (neo_mpc_planner2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.873558] (neo_mpc_planner2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.875112] (neo_mpc_planner2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[8.942802] (-) TimerEvent: {}
+[8.961073] (neo_mpc_planner2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[9.010947] (neo_mpc_planner2) StdoutLine: {'line': b'-- Found nav2_common: 1.1.15 (/opt/ros/humble/share/nav2_common/cmake)\n'}
+[9.011738] (neo_mpc_planner2) StdoutLine: {'line': b'-- Found nav2_core: 1.1.15 (/opt/ros/humble/share/nav2_core/cmake)\n'}
+[9.036504] (neo_mpc_planner2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[9.039109] (neo_mpc_planner2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[9.043013] (-) TimerEvent: {}
+[9.043657] (neo_mpc_planner2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[9.051180] (neo_mpc_planner2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.061735] (neo_mpc_planner2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.101723] (neo_mpc_planner2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[9.103267] (neo_mpc_planner2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.143233] (-) TimerEvent: {}
+[9.158087] (neo_mpc_planner2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[9.173997] (neo_mpc_planner2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[9.201838] (neo_mpc_planner2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.206964] (neo_mpc_planner2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.243450] (-) TimerEvent: {}
+[9.247408] (neo_mpc_planner2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.247555] (neo_mpc_planner2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.290887] (neo_mpc_planner2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.291693] (neo_mpc_planner2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.343597] (-) TimerEvent: {}
+[9.444003] (-) TimerEvent: {}
+[9.544405] (-) TimerEvent: {}
+[9.644803] (-) TimerEvent: {}
+[9.745229] (-) TimerEvent: {}
+[9.845596] (-) TimerEvent: {}
+[9.946019] (-) TimerEvent: {}
+[10.000147] (neo_mpc_planner2) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[10.000311] (neo_mpc_planner2) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[10.046253] (-) TimerEvent: {}
+[10.146577] (-) TimerEvent: {}
+[10.247000] (-) TimerEvent: {}
+[10.347419] (-) TimerEvent: {}
+[10.447835] (-) TimerEvent: {}
+[10.548228] (-) TimerEvent: {}
+[10.648651] (-) TimerEvent: {}
+[10.749108] (-) TimerEvent: {}
+[10.849485] (-) TimerEvent: {}
+[10.936149] (neo_mpc_planner2) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.7 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[10.939137] (neo_mpc_planner2) StdoutLine: {'line': b'-- Found neo_srvs2: 0.1.0 (/home/shlok/motio_planning_ws/install/neo_srvs2/share/neo_srvs2/cmake)\n'}
+[10.949701] (-) TimerEvent: {}
+[10.970616] (neo_mpc_planner2) StdoutLine: {'line': b'-- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[11.049837] (-) TimerEvent: {}
+[11.150237] (-) TimerEvent: {}
+[11.250658] (-) TimerEvent: {}
+[11.351094] (-) TimerEvent: {}
+[11.451512] (-) TimerEvent: {}
+[11.551935] (-) TimerEvent: {}
+[11.652370] (-) TimerEvent: {}
+[11.752795] (-) TimerEvent: {}
+[11.853237] (-) TimerEvent: {}
+[11.953539] (-) TimerEvent: {}
+[12.053949] (-) TimerEvent: {}
+[12.154346] (-) TimerEvent: {}
+[12.254769] (-) TimerEvent: {}
+[12.355194] (-) TimerEvent: {}
+[12.455622] (-) TimerEvent: {}
+[12.496859] (neo_mpc_planner2) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.555773] (-) TimerEvent: {}
+[12.588627] (neo_mpc_planner2) StdoutLine: {'line': b'-- Generating done\n'}
+[12.589902] (neo_mpc_planner2) StdoutLine: {'line': b'-- Build files have been written to: /home/shlok/motio_planning_ws/build/neo_mpc_planner2\n'}
+[12.598885] (neo_mpc_planner2) CommandEnded: {'returncode': 0}
+[12.599232] (neo_mpc_planner2) JobProgress: {'identifier': 'neo_mpc_planner2', 'progress': 'build'}
+[12.599343] (neo_mpc_planner2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shlok/motio_planning_ws/build/neo_mpc_planner2', '--', '-j16', '-l16'], 'cwd': '/home/shlok/motio_planning_ws/build/neo_mpc_planner2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shlok'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shlok/motio_planning_ws/install/neo_srvs2/lib:/usr/local/webots/lib/controller:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shlok'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2070'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b4bedfeb7f4d8d91302f984566be42dc'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shlok'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shlok'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shlok-Swift-SF314-71:@/tmp/.ICE-unix/2070,unix/shlok-Swift-SF314-71:/tmp/.ICE-unix/2070'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2599932c_dc94_47ea_8794_3e07fdaf23b2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.I064R2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shlok/motio_planning_ws/install/neo_srvs2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shlok/motio_planning_ws/build/neo_mpc_planner2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b4bedfeb7f4d8d91302f984566be42dc'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shlok/motio_planning_ws/install/neo_srvs2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shlok/motio_planning_ws/install/neo_srvs2:/opt/ros/humble')]), 'shell': False}
+[12.632794] (neo_mpc_planner2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/neo_mpc_planner2.dir/src/NeoMpcPlanner.cpp.o\x1b[0m\n'}
+[12.636927] (neo_mpc_planner2) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_copy_neo_mpc_planner2\n'}
+[12.637108] (neo_mpc_planner2) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_copy_neo_mpc_planner2_setup\n'}
+[12.655900] (-) TimerEvent: {}
+[12.756197] (-) TimerEvent: {}
+[12.767257] (neo_mpc_planner2) StdoutLine: {'line': b'running egg_info\n'}
+[12.767499] (neo_mpc_planner2) StdoutLine: {'line': b'creating neo_mpc_planner2.egg-info\n'}
+[12.767589] (neo_mpc_planner2) StdoutLine: {'line': b'writing neo_mpc_planner2.egg-info/PKG-INFO\n'}
+[12.767746] (neo_mpc_planner2) StdoutLine: {'line': b'writing dependency_links to neo_mpc_planner2.egg-info/dependency_links.txt\n'}
+[12.767837] (neo_mpc_planner2) StdoutLine: {'line': b'writing top-level names to neo_mpc_planner2.egg-info/top_level.txt\n'}
+[12.768019] (neo_mpc_planner2) StdoutLine: {'line': b"writing manifest file 'neo_mpc_planner2.egg-info/SOURCES.txt'\n"}
+[12.769153] (neo_mpc_planner2) StdoutLine: {'line': b"reading manifest file 'neo_mpc_planner2.egg-info/SOURCES.txt'\n"}
+[12.769246] (neo_mpc_planner2) StdoutLine: {'line': b"writing manifest file 'neo_mpc_planner2.egg-info/SOURCES.txt'\n"}
+[12.785983] (neo_mpc_planner2) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_build_neo_mpc_planner2_egg\n'}
+[12.856296] (-) TimerEvent: {}
+[12.956528] (-) TimerEvent: {}
+[13.006937] (neo_mpc_planner2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shlok/motio_planning_ws/motion_planning_mpc/src/NeoMpcPlanner.cpp:34:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knav2_core/controller_exceptions.hpp: No such file or directory\n'}
+[13.007106] (neo_mpc_planner2) StderrLine: {'line': b'   34 | #include \x1b[01;31m\x1b[K"nav2_core/controller_exceptions.hpp"\x1b[m\x1b[K\n'}
+[13.007175] (neo_mpc_planner2) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.007237] (neo_mpc_planner2) StderrLine: {'line': b'compilation terminated.\n'}
+[13.009683] (neo_mpc_planner2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/neo_mpc_planner2.dir/build.make:76: CMakeFiles/neo_mpc_planner2.dir/src/NeoMpcPlanner.cpp.o] Error 1\n'}
+[13.009867] (neo_mpc_planner2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:220: CMakeFiles/neo_mpc_planner2.dir/all] Error 2\n'}
+[13.010096] (neo_mpc_planner2) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.012157] (neo_mpc_planner2) CommandEnded: {'returncode': 2}
+[13.029028] (neo_mpc_planner2) JobEnded: {'identifier': 'neo_mpc_planner2', 'rc': 2}
+[13.039813] (-) EventReactorShutdown: {}
