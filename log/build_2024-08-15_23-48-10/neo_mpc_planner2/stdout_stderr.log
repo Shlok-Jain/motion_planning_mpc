@@ -1,0 +1,31 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/neo_mpc_planner2.dir/src/NeoMpcPlanner.cpp.o[0m
+[ 50%] Built target ament_cmake_python_copy_neo_mpc_planner2_setup
+[ 50%] Built target ament_cmake_python_copy_neo_mpc_planner2
+running egg_info
+writing neo_mpc_planner2.egg-info/PKG-INFO
+writing dependency_links to neo_mpc_planner2.egg-info/dependency_links.txt
+writing top-level names to neo_mpc_planner2.egg-info/top_level.txt
+reading manifest file 'neo_mpc_planner2.egg-info/SOURCES.txt'
+writing manifest file 'neo_mpc_planner2.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_neo_mpc_planner2_egg
+[01m[K/home/shlok/motio_planning_ws/motion_planning_mpc/src/NeoMpcPlanner.cpp:[m[K In member function ‘[01m[Knav_msgs::msg::Path neo_mpc_planner::NeoMpcPlanner::transformGlobalPlan(const PoseStamped&)[m[K’:
+[01m[K/home/shlok/motio_planning_ws/motion_planning_mpc/src/NeoMpcPlanner.cpp:70:22:[m[K [01;31m[Kerror: [m[K‘[01m[KControllerException[m[K’ is not a member of ‘[01m[Knav2_core[m[K’
+   70 |     throw nav2_core::[01;31m[KControllerException[m[K("Received plan with zero length");
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shlok/motio_planning_ws/motion_planning_mpc/src/NeoMpcPlanner.cpp:76:22:[m[K [01;31m[Kerror: [m[K‘[01m[KControllerException[m[K’ is not a member of ‘[01m[Knav2_core[m[K’
+   76 |     throw nav2_core::[01;31m[KControllerException[m[K("Unable to transform robot pose into global plan's frame");
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shlok/motio_planning_ws/motion_planning_mpc/src/NeoMpcPlanner.cpp:131:22:[m[K [01;31m[Kerror: [m[K‘[01m[KControllerException[m[K’ is not a member of ‘[01m[Knav2_core[m[K’
+  131 |     throw nav2_core::[01;31m[KControllerException[m[K("Resulting plan has 0 poses in it.");
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shlok/motio_planning_ws/motion_planning_mpc/src/NeoMpcPlanner.cpp:[m[K In member function ‘[01m[Kvirtual geometry_msgs::msg::TwistStamped neo_mpc_planner::NeoMpcPlanner::computeVelocityCommands(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)[m[K’:
+[01m[K/home/shlok/motio_planning_ws/motion_planning_mpc/src/NeoMpcPlanner.cpp:235:22:[m[K [01;31m[Kerror: [m[K‘[01m[KControllerException[m[K’ is not a member of ‘[01m[Knav2_core[m[K’
+  235 |     throw nav2_core::[01;31m[KControllerException[m[K("MPC detected collision!");
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shlok/motio_planning_ws/motion_planning_mpc/src/NeoMpcPlanner.cpp:[m[K In member function ‘[01m[Kvirtual void neo_mpc_planner::NeoMpcPlanner::configure(const WeakPtr&, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)[m[K’:
+[01m[K/home/shlok/motio_planning_ws/motion_planning_mpc/src/NeoMpcPlanner.cpp:299:22:[m[K [01;31m[Kerror: [m[K‘[01m[KControllerException[m[K’ is not a member of ‘[01m[Knav2_core[m[K’
+  299 |     throw nav2_core::[01;31m[KControllerException[m[K("Unable to lock node!");
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/neo_mpc_planner2.dir/build.make:76: CMakeFiles/neo_mpc_planner2.dir/src/NeoMpcPlanner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:220: CMakeFiles/neo_mpc_planner2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

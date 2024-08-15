@@ -1,0 +1,56 @@
+[35m[1mConsolidate compiler generated dependencies of target neo_mpc_planner2[0m
+[  0%] Built target ament_cmake_python_copy_neo_mpc_planner2
+[  0%] Built target ament_cmake_python_copy_neo_mpc_planner2_setup
+[ 50%] [32mBuilding CXX object CMakeFiles/neo_mpc_planner2.dir/src/NeoMpcPlanner.cpp.o[0m
+running egg_info
+writing neo_mpc_planner2.egg-info/PKG-INFO
+writing dependency_links to neo_mpc_planner2.egg-info/dependency_links.txt
+writing top-level names to neo_mpc_planner2.egg-info/top_level.txt
+reading manifest file 'neo_mpc_planner2.egg-info/SOURCES.txt'
+writing manifest file 'neo_mpc_planner2.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_neo_mpc_planner2_egg
+[100%] [32m[1mLinking CXX shared library libneo_mpc_planner2.so[0m
+[100%] Built target neo_mpc_planner2
+-- Install configuration: ""
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/share/neo_mpc_planner2/environment/pythonpath.sh
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/share/neo_mpc_planner2/environment/pythonpath.dsv
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/local/lib/python3.10/dist-packages/neo_mpc_planner2-1.0.0-py3.10.egg-info
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/local/lib/python3.10/dist-packages/neo_mpc_planner2-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/local/lib/python3.10/dist-packages/neo_mpc_planner2-1.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/local/lib/python3.10/dist-packages/neo_mpc_planner2-1.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/local/lib/python3.10/dist-packages/neo_mpc_planner2-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/local/lib/python3.10/dist-packages/neo_mpc_planner2
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/local/lib/python3.10/dist-packages/neo_mpc_planner2/mpc_optimization_server.py
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/local/lib/python3.10/dist-packages/neo_mpc_planner2/__init__.py
+Listing '/home/shlok/motio_planning_ws/install/neo_mpc_planner2/local/lib/python3.10/dist-packages/neo_mpc_planner2'...
+Compiling '/home/shlok/motio_planning_ws/install/neo_mpc_planner2/local/lib/python3.10/dist-packages/neo_mpc_planner2/__init__.py'...
+Compiling '/home/shlok/motio_planning_ws/install/neo_mpc_planner2/local/lib/python3.10/dist-packages/neo_mpc_planner2/mpc_optimization_server.py'...
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/include/
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/include//controller_exceptions.hpp
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/include//NeoMpcPlanner.h
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/share/neo_mpc_planner_plugin.xml
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/lib/libneo_mpc_planner2.so
+-- Set runtime path of "/home/shlok/motio_planning_ws/install/neo_mpc_planner2/lib/libneo_mpc_planner2.so" to ""
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/lib/neo_mpc_planner2/mpc_optimization_server.py
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/share/neo_mpc_planner2/environment/library_path.sh
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/share/neo_mpc_planner2/environment/library_path.dsv
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/share/neo_mpc_planner2/neo_mpc_planner_plugin.xml
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/share/ament_index/resource_index/package_run_dependencies/neo_mpc_planner2
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/share/ament_index/resource_index/parent_prefix_path/neo_mpc_planner2
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/share/neo_mpc_planner2/environment/ament_prefix_path.sh
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/share/neo_mpc_planner2/environment/ament_prefix_path.dsv
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/share/neo_mpc_planner2/environment/path.sh
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/share/neo_mpc_planner2/environment/path.dsv
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/share/neo_mpc_planner2/local_setup.bash
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/share/neo_mpc_planner2/local_setup.sh
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/share/neo_mpc_planner2/local_setup.zsh
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/share/neo_mpc_planner2/local_setup.dsv
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/share/neo_mpc_planner2/package.dsv
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/share/ament_index/resource_index/packages/neo_mpc_planner2
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/share/ament_index/resource_index/nav2_core__pluginlib__plugin/neo_mpc_planner2
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/share/neo_mpc_planner2/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/share/neo_mpc_planner2/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/share/neo_mpc_planner2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/share/neo_mpc_planner2/cmake/neo_mpc_planner2Config.cmake
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/share/neo_mpc_planner2/cmake/neo_mpc_planner2Config-version.cmake
+-- Installing: /home/shlok/motio_planning_ws/install/neo_mpc_planner2/share/neo_mpc_planner2/package.xml
